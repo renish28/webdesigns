@@ -1,0 +1,9 @@
+@mixin display_property($align_val,$justify_val) {
+    display: flex;
+    align-items:$align_val;
+    justify-content:$justify_val;
+  }
+@mixin btn_property(){
+    outline: none;
+    border: none;
+}
