@@ -294,6 +294,12 @@ footer {
   nav {
     padding: 8px 8px;
   }
+  main, aside {
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
   .logo_cover i {
     font-size: 28px;
   }

@@ -169,6 +169,10 @@ aside{
     nav{
         padding: 8px 8px;
     }
+    main,aside{
+    height:auto;
+    display:flex;
+}
     .logo_cover{
         i {
             font-size: 28px;
