@@ -1,5 +1,4 @@
 html, body {
-  height: 100%;
   width: 100%;
   margin: 0px;
 }
@@ -88,6 +87,7 @@ nav {
 
 main,
 aside {
+  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -142,9 +142,9 @@ section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;

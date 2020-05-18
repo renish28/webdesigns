@@ -3,9 +3,9 @@ $Nav_Font_Color:#fff;
 @import 'display';
 
 html,body{
-    height:100%;
     width:100%;
     margin:0px;
+
 }
 nav{
     background-color: $Nav_Bg_Color;
@@ -55,6 +55,7 @@ nav{
 }
 main,
 aside{
+    height:100vh;
     display:flex;
 }
 .sidebar{
@@ -87,7 +88,7 @@ aside{
         width: 100%;
         padding: 20px 0px 20px 50px;
         font-family: 'Roboto',sans-serif;
-        @include display_property(center,center); 
+        @include display_property(flex-start,center); 
      }
     .title_div{
         h2{
