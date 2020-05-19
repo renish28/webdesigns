@@ -90,7 +90,7 @@ html, body {
 }
 
 .banner_wrapper {
-  background-image: url(../assets/slider/slider_3.jpg);
+  background-image: url(/assets/slider/slider_3.jpg);
   background-size: cover;
   padding: 40px 2px;
   display: -webkit-box;
@@ -219,7 +219,7 @@ footer {
     width: 20px;
   }
   .banner_wrapper {
-    background-image: url(../assets/slider/banner_back_mobile.jpg);
+    background-image: url(/assets/slider/banner_back_mobile.jpg);
   }
   .banner_wrapper h2 {
     font-size: 30px;
